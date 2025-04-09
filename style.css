@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+body{
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+.box{
+    background-color: rgb(48, 43, 43);
+    padding: 30px 30px;
+    margin: 20px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 25px;
+    margin: 5px 5px 20px 5px;
+}
+.box2 button{
+    background-color: rgb(119, 0, 255);
+    border-radius: 5px;
+    color: white;
+    padding: 7px 8px;
+    margin: 5px 0px 5px 5px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.box2 button:hover{
+    background-color: rgb(99, 0, 213);
+}
+
+.box2{
+    padding: 10px 2px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.box2 li{
+    background-color: #333333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listItem span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cartlist{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box3 h2{
+    margin-bottom: 5px;
+}
+.box4{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.box4 button{
+    background-color: rgb(119, 0, 255);
+    border-radius: 5px;
+    color: white;
+    padding: 7px 8px;
+    margin: 7px 0px 5px 5px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.box4 button:hover{
+    background-color: rgb(99, 0, 213);
+}
+.rmv-btn{
+    background-color: rgb(187, 40, 40);
+    border-radius: 5px;
+    color: white;
+    padding: 7px 8px;
+    margin: 7px 0px 5px 5px;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.rmv-btn:hover{
+    background-color: rgb(132, 27, 27);
+}
+
